@@ -1,7 +1,7 @@
 Summary:	This package holds THREE little search utilities
 Summary(pl):	Pakiet zawiera TRZY ma³e narzêdzia do wyszukiwania
 Name:		whichman
-Version:	2.0
+Version:	2.1
 Release:	1
 License:	GPL
 Group:		Applications/File
