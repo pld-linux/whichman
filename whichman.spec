@@ -31,7 +31,8 @@ nazw± strony man, pliku czy polecenia.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{makeinstall}
+%{make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
