@@ -5,8 +5,6 @@ Version:	2.0
 Release:	1
 License:	GPL
 Group:		Applications/File
-Group(de):	Applikationen/Datei
-Group(pl):	Aplikacje/Pliki
 Source0:	http://www.linuxfocus.org/~guido.socher/%{name}-%{version}.tar.gz
 Patch0:		%{name}-FHS.patch
 URL:		http://www.linuxfocus.org/~guido.socher/
