@@ -5,9 +5,9 @@ Version:	2.0
 Release:	1
 License:	GPL
 Group:		Applications/File
-Source0:	http://www.linuxfocus.org/~guido.socher/%{name}-%{version}.tar.gz
+Source0:	http://main.linuxfocus.org/~guido.socher/%{name}-%{version}.tar.gz
 Patch0:		%{name}-FHS.patch
-URL:		http://www.linuxfocus.org/~guido.socher/
+URL:		http://main.linuxfocus.org/~guido.socher/index.html#whichman
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
