@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://pepper.linuxfocus.org/~guido/%{name}-%{version}.tar.gz
+# Source0-md5:	4b785b63402127925185c720eba06b8f
 URL:		http://pepper.linuxfocus.org/~guido/index.html#whichman
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
