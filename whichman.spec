@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install PREFIX=$RPM_BUILD_ROOT%{_prefix}
 
-gzip -9nf README whichman-2.0.lsm
+gzip -9nf README whichman*.lsm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
