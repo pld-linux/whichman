@@ -1,7 +1,7 @@
 Summary:	This package holds THREE little search utilities
 Summary(pl):	Pakiet zawiera TRZY ma³e narzêdzia do wyszukiwania
 Name:		whichman
-Version:	1.9
+Version:	2.0
 Release:	1
 License:	GPL
 Group:		Applications/File
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install PREFIX=$RPM_BUILD_ROOT%{_prefix}
 
-gzip -9nf README whichman-1.9.lsm
+gzip -9nf README whichman-2.0.lsm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
