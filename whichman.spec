@@ -1,12 +1,12 @@
 Summary:	This package holds THREE little search utilities
 Summary(pl):	Pakiet zawiera TRZY ma³e narzêdzia do wyszukiwania
 Name:		whichman
-Version:	2.3
+Version:	2.4
 Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://pepper.linuxfocus.org/~guido/%{name}-%{version}.tar.gz
-# Source0-md5:	337f558c5395370bbe164df52cb32238
+# Source0-md5:	cc3d35f26bbd8bf99f4f16b276384333
 URL:		http://pepper.linuxfocus.org/~guido/index.html#whichman
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,8 +32,7 @@ nazw± strony man, pliku czy polecenia.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	instroot=$RPM_BUILD_ROOT \
-	MANDIR=%{_mandir}
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
