@@ -27,7 +27,6 @@ nazw± strony man, pliku czy komendy.
 %build
 %{__make}
 
-gzip -9nf README whichman*.lsm
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -39,6 +38,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README whichman*.lsm
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
