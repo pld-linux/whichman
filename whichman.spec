@@ -27,12 +27,12 @@ nazw± strony man, pliku czy komendy.
 %build
 %{__make}
 
+gzip -9nf README whichman*.lsm
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install PREFIX=$RPM_BUILD_ROOT%{_prefix}
-
-gzip -9nf README whichman*.lsm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
