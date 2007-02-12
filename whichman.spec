@@ -1,5 +1,5 @@
 Summary:	This package holds THREE little search utilities
-Summary(pl):	Pakiet zawiera TRZY ma³e narzêdzia do wyszukiwania
+Summary(pl.UTF-8):   Pakiet zawiera TRZY maÅ‚e narzÄ™dzia do wyszukiwania
 Name:		whichman
 Version:	2.4
 Release:	1
@@ -15,10 +15,10 @@ Fault-tolerant man-page, file and "which-like" command finders. They
 all work by computing the Levenshtein Distance between the search
 pattern and the man-page, file, or command name.
 
-%description -l pl
-Odporne na b³êdy wyszukiwarki stron man, plików i poleceñ. Dzia³aj±
-obliczaj±c odleg³o¶æ Levenshteina pomiêdzy wzorcem wyszukiwania a
-nazw± strony man, pliku czy polecenia.
+%description -l pl.UTF-8
+Odporne na bÅ‚Ä™dy wyszukiwarki stron man, plikÃ³w i poleceÅ„. DziaÅ‚ajÄ…
+obliczajÄ…c odlegÅ‚oÅ›Ä‡ Levenshteina pomiÄ™dzy wzorcem wyszukiwania a
+nazwÄ… strony man, pliku czy polecenia.
 
 %prep
 %setup -q
