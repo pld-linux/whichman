@@ -1,5 +1,5 @@
 Summary:	This package holds THREE little search utilities
-Summary(pl.UTF-8):   Pakiet zawiera TRZY małe narzędzia do wyszukiwania
+Summary(pl.UTF-8):	Pakiet zawiera TRZY małe narzędzia do wyszukiwania
 Name:		whichman
 Version:	2.4
 Release:	1
